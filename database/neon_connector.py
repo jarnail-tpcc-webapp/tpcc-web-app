@@ -155,7 +155,7 @@ class NeonConnector(BaseDatabaseConnector):
 
         # Read connection string from environment
         self.connection_string = os.getenv(
-            "NEON_CONNECTION_STRING",
+            "NEON_CONNECTION_STRING", "postgresql://neondb_owner:npg_oWtxFEqn1T0C@ep-shiny-credit-aafmmr4o-pooler.westus3.azure.neon.tech/neondb?channel_binding=require&sslmode=require"
             
         )
 
